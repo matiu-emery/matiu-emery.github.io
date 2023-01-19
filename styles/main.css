@@ -1,0 +1,92 @@
+
+
+body{
+  background-image: url(https://export-download.canva.com/A44ko/DAFX_8A44ko/1/0/0001-2120441254.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20230118%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230118T014040Z&X-Amz-Expires=28214&X-Amz-Signature=a887ac286f147e18371f7b320b4dfca6b45b6a053db213f755a452009cd14bca&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Untitled%2520design.png&response-expires=Wed%2C%2018%20Jan%202023%2009%3A30%3A54%20GMT
+  );
+  
+  background-attachment: fixed;
+  color: rgb(253, 205, 14);
+ 
+
+}
+
+
+
+h1{
+  margin: 10px;
+  text-align:center;
+  font-size: 70px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(253, 205, 14);
+}
+
+h2{
+  text-align: center;
+  font-family: 'Tangerine', serif;
+  font-size: 45px;
+  color: rgb(253, 205, 14);
+  margin:150px ;
+  border-radius: 20px;
+}
+
+
+a{
+
+  position: ;
+  color: black;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size: medium;
+  letter-spacing:0.5;
+  font-weight:500;
+  padding:10px 30px;
+  transition:3;
+  
+}
+
+button{
+  background-color: orangered;
+
+}
+
+form {
+ 
+  display:grid;
+  justify-content: left;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 5px;
+
+}
+
+
+
+a:hover{
+  letter-spacing: 0.3px; 
+  
+}
+
+
+ 
+div.main{
+ 
+}
+
+div#first{
+
+}
+
+div#second{
+
+} 
+
+
+
+
+
+
+
+
