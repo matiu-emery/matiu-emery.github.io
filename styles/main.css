@@ -184,16 +184,15 @@ h5{
 }
 
 .h3{
-  
   font-weight: 600;
-  font-size: 17px;
+  font-size: 20px;
   color: white;
 
 }
 
 .core{
   color: white;
-  font-size: 15px;
+  font-size: 17px;
   
 
 }
@@ -233,8 +232,12 @@ img{
 
 }
 
-p{
-
+.whoam{
+  margin-left:100px ;
+  margin-right: 100px;
+  margin-right: ;
+  padding-left:50px ;
+  padding-right:50px ;
   background-color: black;
   color: aliceblue;
   
@@ -242,11 +245,8 @@ p{
 
 .paragrapgh{
   border-radius: 1000px;
-  border-color: red;
-  
-  box-sizing: content-box;
   text-align: justify ;
-  display: block;
+  
 
 }
 
@@ -266,6 +266,12 @@ p{
 }
 
 .mbp{
+  margin-left:100px ;
+  margin-right: 100px;
+  padding-left:50px ;
+  padding-right:50px ;
+  color:black;
+  
 
 }
 
@@ -275,7 +281,19 @@ p{
 }
 
 
+/*-----------------------learning plan-----------------------------*/
 
+.learning{
+  background-image: url(https://media.istockphoto.com/id/1094922834/vector/binary-background.jpg?s=612x612&w=0&k=20&c=OEGamSEXekm5Q0dRGa1U4DtzgIS_Zq1cCjhjM3D0EWI=
+ )!important;
+ background-size: cover;
+ 
+
+}
+
+.plan{
+
+}
 
 /* MEDIA QUERIES */
 
