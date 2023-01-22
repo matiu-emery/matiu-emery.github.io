@@ -66,23 +66,15 @@ button{
 /*-----------------------footer-index----------------------*/
 
 footer{
-  text-align: center; 
-  border-spacing: 10px;
- 
+  margin-block-end: auto;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-top: 300px;    
+}
+
+.toe{
+  text-align: justify;
   
-}
-
-.foot{
- text-align: center;
- color: white;
- width: 400px;
- margin-bottom: 0px;
- margin-top: 200px;
- margin-right: 300px;
-}
-
-#toe{
-
 }
 
 /*------------blog/panes/links-for-home-page-index----------------*/
@@ -229,7 +221,6 @@ img{
 
 .whoam{
   display: block;
- 
   margin-left:100px ;
   margin-right: 100px;
   padding-left:100px ;
@@ -247,6 +238,16 @@ img{
 /*---------------html-css---diffrence-of-m/b/p--------------------*/
 
 .body{
+  background-color: white;
+  background-size: contain;
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  background-image: url(https://zellwk.com/images/2014/02/box-sizing.jpg
+  
+  );
+  margin: 20px;
+  
 
 }
 
@@ -255,9 +256,19 @@ img{
 
 }
 
-.H1{
+.dif{
+  margin-top: 10px;
+
+
+
    
 }
+
+.overview{
+ 
+
+}
+
 
 .mbp{
   margin-left:100px ;
@@ -273,6 +284,31 @@ img{
 
 
 }
+
+.radius{
+  margin-left: 150 ;
+}
+
+#radius2{
+  align-content: center;
+  height: 300px !important;
+  width: 300px !important;
+  border: 0px !important;
+  
+
+}
+h6{
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  margin:50px;
+  margin-left: 50%;
+  margin-right: 25%;
+  border: 2px solid black;
+
+
+}
+  
 
 
 /*-----------------------learning plan-----------------------------*/
