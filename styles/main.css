@@ -97,11 +97,6 @@ footer{
   transform: scale(1.1);
 }
 
-.bt{
-
-
-}
-
 #links{
   background-size: contain;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7iKjl9w1EEiOGZ6pjeVLubLLikINDlN7EUy6U6V0dlHir8kOZVNBoRMNBYNiPqALAIIE&usqp=CAU
@@ -243,14 +238,13 @@ img{
   
 }
 
-.paragrapgh{
-  border-radius: 1000px;
+.paragraph{ 
   text-align: justify ;
   
 
 }
 
-/*---------------html-css----------------------*/
+/*---------------html-css---diffrence-of-m/b/p--------------------*/
 
 .body{
 
@@ -302,4 +296,8 @@ img{
   
 
 
+}
+
+@media screen {max
+  
 }
