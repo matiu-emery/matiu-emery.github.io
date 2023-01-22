@@ -233,13 +233,13 @@ img{
 }
 
 .whoam{
+  display: block;
+ 
   margin-left:100px ;
   margin-right: 100px;
-  margin-right: ;
-  padding-left:50px ;
-  padding-right:50px ;
-  background-color: black;
-  color: aliceblue;
+  padding-left:100px ;
+  padding-right:100px ; 
+  color: black;
   
 }
 
@@ -295,40 +295,11 @@ img{
 
 }
 
-/* MEDIA QUERIES */
+/*------------------MEDIA------------------*/
 
-@media all and (max-width: 1200px) {
-  h1 {
-    font-size: 8vw;
-  }
-  .bPanel {
-    justify-content: center;
-  }
-  /* h2 {
-    font-size: 20px;
-  } */
-}
+@media (min-width: 100px){
 
-@media all and (max-width: 768px) {
-  li {
-    display: flex;
-    justify-content: center;
-  }
-  a {
-    font-size: 15px;
-  }
-  /* h2 { 
-    font-size: 15px;
-  } */
-  h3 {
-    font-size: 15px;
-  }
   
-}
 
-@media all and (max-width: 320px) {
-  h1 {
-    font-size: 10vw;
-    text-align: center;
-  }
+
 }
