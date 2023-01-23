@@ -30,6 +30,7 @@ h2{
   color:black;
   margin: 60px ;
   border-radius: 20px;
+
 }
 
 
@@ -82,11 +83,13 @@ footer{
 .blog{
   display: grid;
   margin-left: 10px;
-  margin-right: 10px
+  margin-right: 10px;
+
 }
 
 .bt:hover{
   transform: scale(1.1);
+
 }
 
 #links{
@@ -94,12 +97,14 @@ footer{
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7iKjl9w1EEiOGZ6pjeVLubLLikINDlN7EUy6U6V0dlHir8kOZVNBoRMNBYNiPqALAIIE&usqp=CAU
 
   );
+
 }
 
 #links2{
   background-size: contain;
   background-image: url(https://i.pinimg.com/736x/f2/bf/d1/f2bfd1d26802dcb277afa2f953ad69d9.jpg
 );
+
 }
 
 #links3{
@@ -107,6 +112,7 @@ footer{
   background-image: url(https://cdna.artstation.com/p/assets/images/images/024/216/918/large/lincoln-moa-received-2673692842852266.jpg?1581682617
 
   );
+
 }
 
 .aa{
@@ -121,6 +127,7 @@ h4 {
   text-align: center;
   font-size: 30px;
   font-family: 'Lora', serif;
+
 }
 
 h5{
@@ -130,10 +137,11 @@ h5{
   text-align: center;
   font-size: 30px;
   font-family: 'Lora', serif;
+
 }
 
 
-/*------------------------- core-------------------------------- */
+/*-------------------------identity-values-------------------------------- */
 
 .head{
   margin: 10px;
@@ -164,10 +172,12 @@ h5{
   font-size:70px;
   font-family:'Tangerine', serif;
   text-shadow:5px 5px whitesmoke ;
+
 }
 
 .gap{
   margin-top: 40px;
+
 }
 
 .h3{
@@ -181,7 +191,6 @@ h5{
   color: white;
   font-size: 17px;
   
-
 }
 
 /*------------------ Ko wai au -------------------------*/
@@ -197,10 +206,9 @@ h5{
   border: 5px solid black; 
   border-radius: 10%;;
 
-
 }
 
-img{
+.img{
   
   width: 200px;
   height: 200px;
@@ -215,7 +223,6 @@ img{
   font-size:20px;
   font-weight: 600px;
   text-align: center;
-
 
 }
 
@@ -232,7 +239,6 @@ img{
 .paragraph{ 
   text-align: justify ;
   
-
 }
 
 /*---------------html-css---diffrence-of-m/b/p--------------------*/
@@ -241,31 +247,26 @@ img{
   background-color: white;
   background-size: contain;
   background-position: center;
-  
   background-repeat: no-repeat;
-  background-image: url(https://zellwk.com/images/2014/02/box-sizing.jpg
-  
+  background-image: url(https://zellwk.com/images/2014/02/box-sizing.jpg 
   );
   margin: 20px;
   
-
 }
 
-#body2{
-
+#bod{
 
 }
 
 .dif{
   margin-top: 10px;
 
-
-
-   
 }
 
 .overview{
- 
+  contain: content;
+  margin-top: 50px;
+  border: 10px solid black;
 
 }
 
@@ -275,62 +276,94 @@ img{
   margin-right: 100px;
   padding-left:50px ;
   padding-right:50px ;
-  color:black;
-  
+  color:black;  
 
 }
-
-#mbp2{
-
+.mbp2{
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
+  height: auto;
+  border: 5px solid black; 
 
 }
 
 .radius{
-  margin-left: 150 ;
+  align-content: center;
+  margin:10px;
+  
 }
 
 #radius2{
-  align-content: center;
-  height: 300px !important;
-  width: 300px !important;
-  border: 0px !important;
   
 
 }
 h6{
+  align-content: center;
+  color: blanchedalmond;
+  background-color: black;
   text-align: center;
   font-size: 20px;
   padding: 20px;
-  margin:50px;
-  margin-left: 50%;
+  margin:80px;
+  margin-left: 25%;
   margin-right: 25%;
-  border: 2px solid black;
-
+  border: 2px solid yellow;
 
 }
+
+
+
   
 
+.section{
+  box-sizing:border-box ;
+  text-align: justify;
+  margin-top: 50px;
+  border: 10px solid black;
+  
+}
 
 /*-----------------------learning plan-----------------------------*/
 
 .learning{
   background-image: url(https://media.istockphoto.com/id/1094922834/vector/binary-background.jpg?s=612x612&w=0&k=20&c=OEGamSEXekm5Q0dRGa1U4DtzgIS_Zq1cCjhjM3D0EWI=
  )!important;
- background-size: cover;
+ background-size: cover; 
+
+}
+
+.two{
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding:10px ;
+  background-color: white;
+  font-size: 50px;
+  font-weight: bold;
+    
+}
+
+.sec{
+  margin: 20px;
+  padding:20px ;
+  background-color: white;
+  border: 5px solid black ;
+}
+.plan{
  
 
 }
 
-.plan{
-
+.path{
+  text-decoration: 2px red underline;
+  
 }
+
 
 /*------------------MEDIA------------------*/
 
 @media (min-width: 100px){
-
-  
-
 
 }
 
