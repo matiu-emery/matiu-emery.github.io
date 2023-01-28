@@ -26,7 +26,7 @@ h2{
   font-family:'Tangerine', serif;
   text-shadow:5px 5px whitesmoke ;
   text-align: center;
-  font-size: 45px;
+  font-size: 50px;
   color:black;
   margin: 60px ;
   border-radius: 20px;
@@ -48,18 +48,17 @@ a{
 /*----------------------page-link-buttons----------------------------*/
 
 button{
+  justify-items: space-around;
   background-color:black;
   letter-spacing: 0.3px; 
 
 }
 
 .nav {
-
-  margin: auto;
+  margin: 10px;
   height: auto;
-  width: 80vw;
   text-align: center;
-  margin-bottom: 25px;
+ 
   
 }
 
@@ -80,10 +79,17 @@ footer{
 
 /*------------blog/panes/links-for-home-page-index----------------*/
 
+#blOg{
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
 .blog{
   display: grid;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 75px;
+  margin-right: 75px;
 
 }
 
@@ -93,7 +99,7 @@ footer{
 }
 
 #links{
-  background-size: contain;
+  background-size:contain;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7iKjl9w1EEiOGZ6pjeVLubLLikINDlN7EUy6U6V0dlHir8kOZVNBoRMNBYNiPqALAIIE&usqp=CAU
 
   );
@@ -101,14 +107,14 @@ footer{
 }
 
 #links2{
-  background-size: contain;
+  background-size:contain;
   background-image: url(https://i.pinimg.com/736x/f2/bf/d1/f2bfd1d26802dcb277afa2f953ad69d9.jpg
 );
 
 }
 
 #links3{
-  background-size: contain;
+  background-size:contain;
   background-image: url(https://cdna.artstation.com/p/assets/images/images/024/216/918/large/lincoln-moa-received-2673692842852266.jpg?1581682617
 
   );
@@ -227,16 +233,18 @@ h5{
 }
 
 .whoam{
+  margin:10px;
+  text-align: center;
+  text-align: justify;
   display: block;
-  margin-left:100px ;
-  margin-right: 100px;
-  padding-left:100px ;
-  padding-right:100px ; 
   color: black;
   
 }
 
 .paragraph{ 
+  border: 2px solid black;
+  margin:10px;
+  box-sizing: content-box;
   text-align: justify ;
   
 }
@@ -361,12 +369,129 @@ h6{
 }
 
 
+/*--------------JAVA-DOM------------------*/
+.head{
+  background-image:url(https://www.w3schools.com/js/pic_htmltree.gif
+  ) ;
+  background-color: white;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 75px;
+  margin: auto;
+  padding: auto;
+  
+}
+
+#heaD{
+  font-size: 70px;
+  font-family: fantasy;
+  text-align: center;
+}
+
+#Border{
+  margin: 10px 15px 10px 15px;
+  border: 2px solid black ;
+}
+
+#head2{
+  font-family:fantasy ;
+  font-size: 50px;
+}
+
+#java{
+  margin:5px 10px 5px 10px;
+  text-align: center;
+  font-family: fantasy;
+  font-weight: bold;
+  font-size:18px;
+}
+
+/*-------------------------EQ*----------------------------------*/
+.sneaky{
+  align-items: center;
+  margin: 10px;
+  margin-top:5px ;
+  margin-bottom:30px ;
+}
+
+.Head{
+  background-color:white;
+  text-align: center;
+  font-size: 75px;
+  margin: auto;
+  padding: auto;
+  
+}
+
+#emotion{
+  height:500px;
+  background-color: white;
+  margin:10px;
+  border-top:4px solid black ;
+  background-image: url(https://assets.neurosurgicalatlas.com/volumes/ATLAS/0.5-NOTSN/08-Emotional_Intelligence/NOTSN_Emotional_01.jpg
+  );
+  background-size: 400px 400px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  
+}
+
+#Emotion{
+  padding-left: 550px;
+  margin:10px;
+  font-size: 17px;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
+#intel{
+  text-align: right;
+  font-size: 45px;
+  font-family: serif;
+  text-shadow: none;
+}
+
+#Quotient{
+  height:500px;
+  margin:10px;
+  border-top:4px solid black ;
+  background-image: url(
+  https://urquery.com/storage/2022/06/IQ-trait.jpg
+  );
+  background-size: 400px 400px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-color: white;
+ 
+}
+
+#Intelligence{
+ text-align: left;
+ font-family: serif;
+ text-shadow: none;
+}
+
+#quo{
+  padding-right: 550px;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin:10px;
+  text-align: left;
+  font-size: 17px;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
 /*------------------MEDIA------------------*/
 
 @media (min-width: 100px){
-
+  
 }
 
-@media screen {max
+@media (max-width: 800px){
   
 }
