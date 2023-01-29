@@ -409,6 +409,12 @@ h6{
 }
 
 /*-------------------------EQ*----------------------------------*/
+#title{
+  text-align: center;
+  margin:10px ;
+
+}
+
 .sneaky{
   align-items: center;
   margin: 10px;
@@ -417,6 +423,9 @@ h6{
 }
 
 .Head{
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position: fixed;
   background-color:white;
   text-align: center;
   font-size: 75px;
@@ -426,14 +435,13 @@ h6{
 }
 
 #emotion{
-  background-attachment: fixed;
-  height:500px;
+  height:350px;
   background-color: white;
   margin:10px;
   border-top:4px solid black ;
   background-image: url(https://assets.neurosurgicalatlas.com/volumes/ATLAS/0.5-NOTSN/08-Emotional_Intelligence/NOTSN_Emotional_01.jpg
   );
-  background-size: 400px 400px;
+  background-size: 300px 300px;
   background-position: left;
   background-repeat: no-repeat;
   background-position: fixed;
@@ -441,7 +449,8 @@ h6{
 }
 
 #Emotion{
-  padding-left: 550px;
+  background-attachment: fixed;
+  padding-left: 350px;
   margin:10px;
   font-size: 17px;
   font-weight: bolder;
@@ -455,15 +464,15 @@ h6{
   text-shadow: none;
 }
 
-#Quotient{
-  background-attachment: fixed;
-  height:500px;
+#Quotient{ 
+  height: 200px;
   margin:10px;
   border-top:4px solid black ;
+  border-bottom:4px solid black ;
   background-image: url(
-  https://urquery.com/storage/2022/06/IQ-trait.jpg
+    https://i.ytimg.com/vi/TYDUZIP2lSg/maxresdefault.jpg
   );
-  background-size: 400px 400px;
+  background-size: 200px 200px;
   background-position: right;
   background-repeat: no-repeat;
   background-position: fixed;
@@ -477,16 +486,42 @@ h6{
  text-shadow: none;
 }
 
-#quo{
-  padding-right: 550px;
+#quo{  
   box-sizing: border-box;
   word-wrap: break-word;
   margin:10px;
+  margin-right: 250px;
   text-align: left;
   font-size: 17px;
   font-weight: bolder;
   font-family: sans-serif;
 }
+
+#compare{
+  height: 300px;
+  margin:10px;
+  background-image: url(
+    
+  );
+  background-size: 250px 250px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-color: white;
+
+}
+
+#com{
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin:10px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
+
 
 /*------------------MEDIA------------------*/
 
