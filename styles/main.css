@@ -17,9 +17,9 @@ h1{
   margin: 10px;
   text-align:center;
   font-size: 70px;
+  font-weight: bold;
   font-family:'Tangerine', serif;
-  text-shadow:5px 5px whitesmoke ;
-  
+  text-shadow:5px 5px whitesmoke ; 
 }
 
 h2{
@@ -521,7 +521,79 @@ h6{
   font-family: sans-serif;
 }
 
+/*-------------neuroplasticity-----------*/
+.Neuro{
+  background-color:white;
+}
 
+#understanding{
+  margin-top: 0px;
+  text-decoration: underline solid black; 
+  text-underline-position: under;
+  font-size: 50px;
+  font-family: italic;
+  text-shadow: none;
+}
+
+.Understand{
+  border: 2px solid lightblue;
+  margin: 10px;
+}
+
+#Para{
+  text-align: justify;
+  font-weight: bold;
+  color: black;
+  margin: 10px;
+}
+
+.image-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center
+}
+
+#engage{
+  margin-top: 0px;
+  text-decoration: underline solid black; 
+  text-underline-position: under;
+  font-size: 50px;
+  font-family: italic;
+  text-shadow: none;
+}
+
+.centered-header {
+  text-align: center;
+  margin-bottom: 10px; 
+}
+
+#Engage{
+ word-spacing: 1.5mm;
+}
+
+#img{
+  width: 400px;
+  height: 400px;
+}
+/*link to resources*/
+#link-to{
+  background-color: red;
+  border: none;
+  border-radius:18px;
+  transition: 0.15s;
+}
+
+#link-to:hover{
+  background-color: black;
+}
+
+#link-to:active{
+  opacity: 0.7;
+}
 
 /*------------------MEDIA------------------*/
 
