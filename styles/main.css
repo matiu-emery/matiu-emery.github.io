@@ -45,6 +45,28 @@ a{
 
 }
 
+#indeX{
+  margin: 5px;
+  font-size: 12px;
+}
+.code-wrap{
+  text-align:left;
+  background-color: #f1f1f1;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+#code{
+  text-align: left;
+  text-align: justify;
+}
+
+#processes{
+  text-decoration: underline 2px black;
+  font-size: 18px;
+}
+
 /*----------------------page-link-buttons----------------------------*/
 
 button{

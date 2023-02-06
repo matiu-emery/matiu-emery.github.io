@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"  type="text/css" href="../styles/main.css">
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Tangerine">
+ 
+  <title>
+    (Matiu Emerys blog)
+     Nau Mai Haere Mai
+  </title>
+
+</head>
+
+<body>
+  <div class="heading"><h1 id="heaD">Problem Solving</h1></div>
+    
+  <nav class="nav">
+    <button><a href="../index.html">home</a></button>
+    <button><a href="javascript-dom.html">JAVA/DOM</a></button>
+    <button><a href="html-css.html">Margin Border Padding</a></button>
+  </nav>
+
+  <i id="indeX">
+   Sprint 4: 5/02/2023
+  </i>
+
+  <div class="sec">
+    <h3 class="path">Blocked on a simple problem:</h3>
+    <p id="code">
+      Where to start, javascript as a whole has been a tedious journey for me, feeling like a lost puppy in a world of vicious cats, Web3school and MDN made me feel incapable at times but also beneficial as it ended up helping me a lot.
+      So the simple problem i ran into was kata manipulating-objects, tyring to link terra to adam and then adam to his children a simple easy task but for some reason i couldn't remember how to link the two sitting there trying to pull the memory of linking the objects as i know i've seen this done many time so what and why can't remeber. After a hour i gave up trying to remember so i done some research and <span>"BOOM"</span> in a second i had found what i had desperately tried to remeber, I learnt through this proccess that if you are stuck even for a moment its better to put that research hat on and just get it done. below is the exsample.
+    </p>
+
+<div class="code-wrap"><pre><code>
+
+ let terah = {
+  name: 'Terah',
+ age: 32,
+ height: 172,
+ hairColor: 'brown',
+  eyeColor: 'brown',
+ }
+
+ let adam = {
+ name: 'Adam',
+ spouse: terah,
+ }
+
+ terah.children = {
+  ben: { name: 'Ben' },
+  wilson: { name: 'Wilson' },
+  felicia: { name: 'Felicia' },
+}
+
+ //Above is the code i had trouble linking.
+ //Below is the code i used to pass the test 😵‍💫 🤦‍♂️ 
+
+ terah.spouse = adam
+
+ adam.children = terah.children
+</code></pre></div>
+
+<h3 class="path">Elegantly solved a problem</h3>
+<p id="code">
+  Ok this was a fun one cause it took me less than 20min it was gradebook 7 stretch material I was gonna attempt it but now I'm glad I did. I solved it with a simple skim through the suite I found the answer well I thought I did, 
+  the problem was I was lost from the beginning reading over the question for 10min straight trying to indent it into my head and make sense of the question, so I broke the question down into sections so I could grab what I needed. I felt confident at first then that disappeared quickly as the code became bigger and bigger and it started to overwhelm me, so I decided to break that code down and start deleting parts that I could see were pointless in this situation. I learnt my understanding of reading code is better then i thought in saying that i am still a long ways away.
+  here is another exsample
+</p>
+
+<div class="code-wrap"><pre><code>
+  //This is what i ended up with//
+
+function enterScores(gradebook, students, scores) {
+  for (let i = 0; i < students.length; i++) {
+    gradebook[students[i]] = {}
+    gradebook[students[i]]['testScores'] = scores[i]
+  }
+}
+//.And this is what i started with.//
+//.After i started breaking down the code i realized
+that the for loop should work as gradebook,students,scores
+were already part of the function and sure enough it worked.
+In conclusion I still need to better understand 
+what im doing so practice practice practice is key. //
+
+function enterScores(gradebook, students, scores){
+  gradebook = {};
+
+  const students = ['Joseph', 'Naomi', 'Yosan', 'David'];
+
+  const scores = [
+  //Joseph's score
+  [80, 70, 70, 100],
+  // Naomi's score
+  [85, 80, 90, 90],
+  // Yosan's score
+  [75, 70, 80, 75],
+  //Davids's score
+  [100, 90, 95, 85],
+  ];
+
+for (let i = 0; i < students.length; i++) {
+  gradebook[students[i]] = {}
+  gradebook[students[i]]['testScores'] = scores[i]
+  }  
+};
+</code></div>
+
+<h3 class="path"> 
+  Reflect on how confident i feel using each of these problem-solving techniques/processes:
+</h3>
+
+<ul>
+  <li id="processes">Pseudocode</li>
+  <p id="code">
+    After researching this i am pretty confident i'll be able to better use this in the coming week, for me making it simple sometimes doesnt work as planned but after i practice more im sure i'll get better.
+  </p>
+
+  <li id="processes">Trying something</li>
+  <p id="code">
+    For java not yet as i dont have the tools or fully understand it to try something i did try once but got lost and went back to what i did know. 
+  </p>
+
+  <li id="processes">Rubber ducky method</li>
+  <p id="code">
+    The rubber ducky technique is a clever way to better understand what the issue is and in some instance helps solve a problem, sometime if i repeat something in my mind i also have other thoughts going through, this can cause one i get lost in the abyss so by implementing the rubber ducky method can help focus your thoughts.
+  </p>
+
+  <li id="processes">Reading error messages</li>
+  <p id="code">
+    Of what i can read from error codes it is a helpful tool to have helps pin point where your code is failing.
+  </p>
+
+  <li id="processes">Console.logging</li>
+  <p id="code">
+    I'm a huge believer of Console.log with out it,with out it then coding would be like driving with out eyes lol. 
+  </p>
+
+  <li id="processes">Googling</li>
+  <p id="code">
+    Google is the place to go if your running into problems as you can find anything and everthing needed to help you on your ventures
+  </p>
+
+  <li id="processes">Asking your peers for help</li>
+  <p id="code">
+    Most of the time since i'm mostly behind most in the cohort the questions i wanted to ask have been asked already so in a way they help me more then they no. 
+  </p>
+
+  <li id="processes">Asking coaches for help</li>
+  <p id="code">
+    Again as stated above the coaches are helpful, and with the foundation workshop videos they do answers most question i have.
+    i should reach out more though picking there brains would be fun plus they would have many different ways of tackling task.
+  </p>
+
+  <li id="processes">Improving your process with reflection</li>
+  <p id="code">
+    I reflect throughout the day even when exercising my body, it helps me run through what i learnt how i learnt and what can i do to help me think more like a programmer
+    and better my learning practice.
+  </p>
+  
+</ul>
+
+
+
+</div>
+</body>
+</html>
