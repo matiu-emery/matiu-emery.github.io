@@ -380,13 +380,29 @@ h6{
   background-color: white;
   border: 5px solid black ;
 }
-.plan{
- 
 
+#plan{
+ 
+}
+#path{
+  text-decoration: 2px red underline;
+  
 }
 
-.path{
-  text-decoration: 2px red underline;
+#Journey{
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.sec2{
+  margin: 20px;
+  padding:5px ;
+  background-color: white;
+  
+}
+
+#path2{
+  font-size: 20px;
+  text-decoration: 2px black underline;
   
 }
 
