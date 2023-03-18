@@ -143,11 +143,6 @@ footer{
 
 }
 
-.aa{
-
-
-}
-
 h4 {
    font-weight: 900;
   margin:auto ;
@@ -284,10 +279,6 @@ h5{
   
 }
 
-#bod{
-
-}
-
 .dif{
   margin-top: 10px;
 
@@ -324,10 +315,6 @@ h5{
   
 }
 
-#radius2{
-  
-
-}
 h6{
   align-content: center;
   color: blanchedalmond;
@@ -381,11 +368,8 @@ h6{
   border: 5px solid black ;
 }
 
-#plan{
- 
-}
 #path{
-  text-decoration: 2px red underline;
+  text-decoration: 2px black underline;
   
 }
 
@@ -406,6 +390,10 @@ h6{
   
 }
 
+.linkTo{
+  margin-left:35%;
+  margin-right:35%;
+}
 
 /*--------------JAVA-DOM------------------*/
 .head{
